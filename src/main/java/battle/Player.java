@@ -13,6 +13,9 @@ class Player {
         this.name = name;
     }
 
+    void setDeck(Set deck) {
+        this.deck = deck;
+    }
 
     Set getDeck() {
         return deck;

@@ -2,21 +2,17 @@ package battle;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.mockito.Mockito.*;
 
-@RunWith(MockitoJUnitRunner.class)
 public class GameTest {
 
     private Game game;
 
     @Before
     public void setUp() throws Exception {
-        final Player playerOne = mock(Player.class);
-        final Player playerTwo = mock(Player.class);
+        final Player playerOne = new Player("1");
+        final Player playerTwo = new Player("2");
         this.game = new Game(playerOne, playerTwo);
     }
 
@@ -28,11 +24,12 @@ public class GameTest {
     }
 
     @Test
-    public void shouldGameStartsWithBothPlayersHavingInitialDeck() {
+    public void shouldGameStartsWithBothPlayersHaving26DifferentCards() {
         //when
         this.game.start();
         //then
-        verify(this.game.getPlayerOne(), times(1)).initDeck();
-        verify(this.game.getPlayerTwo(), times(1)).initDeck();
+      assertThat(this.game.getPlayerOne().getDeck()).size().isEqualTo(26);
+        assertThat(this.game.getPlayerTwo().getDeck()).size().isEqualTo(26);
+        assertThat(this.game.getPlayerOne().getDeck()).doesNotContainAnyElementsOf(this.game.getPlayerTwo().getDeck());
     }
 }
