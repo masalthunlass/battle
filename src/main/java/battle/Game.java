@@ -1,0 +1,6 @@
+package battle;
+
+class Game {
+
+
+}
