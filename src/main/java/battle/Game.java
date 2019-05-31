@@ -1,19 +1,23 @@
 package battle;
 
 class Game {
-    private String playerOne, playerTwo;
+    private Player playerOne, playerTwo;
 
-    void start(String playerOne, String playerTwo) {
+     Game(Player playerOne, Player playerTwo) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
-
     }
 
-    String getPlayerOne() {
+    void start(){
+         this.playerOne.initDeck();
+         this.playerTwo.initDeck();
+    }
+
+    Player getPlayerOne() {
         return this.playerOne;
     }
 
-    String getPlayerTwo() {
+    Player getPlayerTwo() {
         return this.playerTwo;
     }
 }
