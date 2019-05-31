@@ -1,17 +1,21 @@
 package battle;
 
+import java.util.HashSet;
 import java.util.Objects;
+import java.util.Set;
 
 class Player {
 
     private String name;
+    private Set deck = new HashSet();
 
     Player(String name) {
         this.name = name;
     }
 
-    String getName() {
-        return name;
+
+    Set getDeck() {
+        return deck;
     }
 
     @Override

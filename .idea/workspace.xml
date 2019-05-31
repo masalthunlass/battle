@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b6b7bc2-e210-40e3-afc6-b49c224a603b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/battle/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/battle/PlayerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battle/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/battle/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/battle/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/battle/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/battle/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/battle/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/battle/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/battle/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/battle/Player.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,48 +20,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6802622">
+    <splitter split-orientation="horizontal" split-proportion="0.40268457">
       <split-first>
         <leaf>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/battle/Player.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-                  <folding>
-                    <element signature="e#94#95#0" expanded="true" />
-                    <element signature="e#126#127#0" expanded="true" />
-                    <element signature="e#173#174#0" expanded="true" />
-                    <element signature="e#200#201#0" expanded="true" />
-                    <element signature="e#440#441#0" expanded="true" />
-                    <element signature="e#481#482#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/battle/Game.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="40" />
-                  <folding>
-                    <element signature="e#101#102#0" expanded="true" />
-                    <element signature="e#129#130#0" expanded="true" />
-                    <element signature="e#148#149#0" expanded="true" />
-                    <element signature="e#175#176#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/battle/GameTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
-                  <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+                <state relative-caret-position="238">
+                  <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#94#95#0" expanded="true" />
+                    <element signature="e#126#127#0" expanded="true" />
+                    <element signature="e#225#226#0" expanded="true" />
+                    <element signature="e#252#253#0" expanded="true" />
+                    <element signature="e#440#441#0" expanded="true" />
+                    <element signature="e#481#482#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -74,11 +45,23 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/game_rules">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="157">
                   <caret line="14" column="103" selection-start-line="14" selection-start-column="103" selection-end-line="14" selection-end-column="103" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/battle/PlayerTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -130,11 +113,11 @@
         <option value="$PROJECT_DIR$/src/main/java/battle/CardValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/battle/Card.java" />
         <option value="$PROJECT_DIR$/src/main/java/battle/cardDeliveryStrategy/ShuffleInitialDeckStrategy.java" />
-        <option value="$PROJECT_DIR$/src/test/java/battle/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/battle/RoundTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/battle/Player.java" />
         <option value="$PROJECT_DIR$/src/main/java/battle/Game.java" />
         <option value="$PROJECT_DIR$/src/test/java/battle/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/battle/PlayerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/battle/Player.java" />
       </list>
     </option>
   </component>
@@ -255,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GameTest.shouldGameStartsWithBothPlayersHavingInitialDeck">
+  <component name="RunManager" selected="JUnit.PlayerTest.shouldCreatePlayerWithEmptyDeck">
     <configuration name="GameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bataille" />
       <extension name="coverage">
@@ -319,7 +302,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameTest.should_not_draw_one_card_from_each_deck_if_player_one_has_no_card" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.shouldCreatePlayerWithEmptyDeck" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bataille" />
       <extension name="coverage">
         <pattern>
@@ -328,8 +311,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="battle" />
-      <option name="MAIN_CLASS_NAME" value="battle.GameTest" />
-      <option name="METHOD_NAME" value="should_not_draw_one_card_from_each_deck_if_player_one_has_no_card" />
+      <option name="MAIN_CLASS_NAME" value="battle.PlayerTest" />
+      <option name="METHOD_NAME" value="shouldCreatePlayerWithEmptyDeck" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PlayerTest.shouldCreatePlayerWithEmptyDeck" />
         <item itemvalue="JUnit.GameTest.shouldGameStartsWithBothPlayersHavingInitialDeck" />
         <item itemvalue="JUnit.GameTest.assertThatNewGameHasTwoPlayers" />
         <item itemvalue="JUnit.GameTest" />
         <item itemvalue="JUnit.GameTest.shouldGameStartsWithTwoPlayers" />
-        <item itemvalue="JUnit.GameTest.should_not_draw_one_card_from_each_deck_if_player_one_has_no_card" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +343,7 @@
       <workItem from="1558107813280" duration="107000" />
       <workItem from="1558534098304" duration="14000" />
       <workItem from="1558623856182" duration="88000" />
-      <workItem from="1559306848656" duration="6338000" />
+      <workItem from="1559306848656" duration="7025000" />
     </task>
     <task id="LOCAL-00001" summary="battle kata starting step">
       <created>1559308807113</created>
@@ -390,16 +373,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559309548402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add passing test : should game start with players' deck initialized">
+      <created>1559313293033</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559313293033</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add passing test : should game start with players' deck initialized">
+      <created>1559313306675</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1559313306675</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest_shouldGameStartsWithTwoPlayers - 2019.05.31 at 16h 03m 50s.xml">
-      <configuration name="GameTest.shouldGameStartsWithTwoPlayers" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_shouldGameStartsWithBothPlayersHavingInitialDeck - 2019.05.31 at 16h 04m 27s.xml">
-      <configuration name="GameTest.shouldGameStartsWithBothPlayersHavingInitialDeck" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest - 2019.05.31 at 16h 06m 49s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
@@ -424,15 +415,21 @@
     <history-entry file="GameTest_shouldGameStartsWithBothPlayersHavingInitialDeck - 2019.05.31 at 16h 32m 47s.xml">
       <configuration name="GameTest.shouldGameStartsWithBothPlayersHavingInitialDeck" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GameTest_shouldGameStartsWithBothPlayersHavingInitialDeck - 2019.05.31 at 16h 33m 18s.xml">
+      <configuration name="GameTest.shouldGameStartsWithBothPlayersHavingInitialDeck" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PlayerTest_shouldCreatePlayerWithEmptyDeck - 2019.05.31 at 16h 44m 22s.xml">
+      <configuration name="PlayerTest.shouldCreatePlayerWithEmptyDeck" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44658000" />
+    <option name="totallyTimeSpent" value="45345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07852349" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.077181205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -441,17 +438,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17280453" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29461756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39235127" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4305949" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26203966" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.17988668" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.18271954" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.4957507" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,7 +494,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="battle kata starting step" />
     <MESSAGE value="add passing test : should game start with two players" />
-    <option name="LAST_COMMIT_MESSAGE" value="add passing test : should game start with two players" />
+    <MESSAGE value="add passing test : should game start with players' deck initialized" />
+    <option name="LAST_COMMIT_MESSAGE" value="add passing test : should game start with players' deck initialized" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -623,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/battle/PlayerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/battle/InitialDeck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
@@ -650,25 +641,20 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/battle/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="360">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="e#94#95#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/battle/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="40" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#129#130#0" expanded="true" />
@@ -678,12 +664,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/battle/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/battle/PlayerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+        <state relative-caret-position="136">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/battle/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>
